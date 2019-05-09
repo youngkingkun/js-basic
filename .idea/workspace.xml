@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a970401-b988-4033-b323-e4907719ae49" name="Default Changelist" comment="" />
+    <list default="true" id="2a970401-b988-4033-b323-e4907719ae49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/es6/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/string_methods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="1024">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="193" column="1" lean-forward="true" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6/object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/array.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -68,14 +100,17 @@
         <option value="$PROJECT_DIR$/es6/destructuring.js" />
         <option value="$PROJECT_DIR$/es6/string.js" />
         <option value="$PROJECT_DIR$/es6/string_methods.js" />
+        <option value="$PROJECT_DIR$/es6/function.js" />
+        <option value="$PROJECT_DIR$/es6/array.js" />
+        <option value="$PROJECT_DIR$/es6/object.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1699" />
-    <option name="y" value="-42" />
-    <option name="width" value="1579" />
-    <option name="height" value="974" />
+    <option name="x" value="-2560" />
+    <option name="y" value="-317" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -125,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.string_methods.js">
+  <component name="RunManager" selected="Node.js.object.js">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -212,10 +247,13 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration name="destructuring.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="destructuring.js" working-dir="$PROJECT_DIR$/es6">
+    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="array.js" working-dir="$PROJECT_DIR$/es6">
       <method v="2" />
     </configuration>
-    <configuration name="let_and_const.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="let_and_const.js" working-dir="$PROJECT_DIR$/es6">
+    <configuration name="function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="function.js" working-dir="$PROJECT_DIR$/es6">
+      <method v="2" />
+    </configuration>
+    <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="object.js" working-dir="$PROJECT_DIR$/es6">
       <method v="2" />
     </configuration>
     <configuration name="string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="string.js" working-dir="$PROJECT_DIR$/es6">
@@ -226,10 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.object.js" />
+        <item itemvalue="Node.js.array.js" />
+        <item itemvalue="Node.js.function.js" />
         <item itemvalue="Node.js.string_methods.js" />
         <item itemvalue="Node.js.string.js" />
-        <item itemvalue="Node.js.destructuring.js" />
-        <item itemvalue="Node.js.let_and_const.js" />
       </list>
     </recent_temporary>
   </component>
@@ -245,22 +284,25 @@
       <updated>1555724540984</updated>
       <workItem from="1555724544573" duration="995000" />
       <workItem from="1556079543392" duration="679000" />
-      <workItem from="1556250162073" duration="8787000" />
+      <workItem from="1556250162073" duration="20441000" />
+      <workItem from="1557111467438" duration="249000" />
+      <workItem from="1557112064254" duration="6546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10461000" />
+    <option name="totallyTimeSpent" value="28910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1699" y="-42" width="1579" height="974" extended-state="0" />
+    <frame x="-2560" y="-317" width="2560" height="1417" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19833119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12170146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21056604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,28 +325,22 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/es6/destructuring.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts</url>
           <line>433</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts</url>
           <line>425</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/es6/let_and_const.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -336,6 +372,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="696" column="1" lean-forward="true" selection-start-line="696" selection-start-column="1" selection-end-line="696" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17793" column="36" lean-forward="true" selection-start-line="17793" selection-start-column="36" selection-end-line="17793" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/string_methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -346,24 +403,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="696" column="1" lean-forward="true" selection-start-line="696" selection-start-column="1" selection-end-line="696" selection-end-column="1" />
+        <state relative-caret-position="670">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/es6/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="2968" column="1" lean-forward="true" selection-start-line="2968" selection-start-column="1" selection-end-line="2968" selection-end-column="1" />
+        <state relative-caret-position="638">
+          <caret line="193" column="1" lean-forward="true" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6/string_methods.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.symbol.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="278">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
         </state>
       </provider>
     </entry>
