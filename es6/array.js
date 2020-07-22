@@ -94,4 +94,6 @@
  console.log(Array.from([1, 2, 3, false, -1,], x => x || 0));
  console.log(Array.from([null, [], NaN], v => typeof v));
  **/
-console.log(Array.from({length: 3}, () => 'jack'));
+console.log(Array.from({length: 3}, () = > 'jack')
+)
+;

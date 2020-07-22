@@ -55,8 +55,8 @@
  set = new Set([...set].map(v => v * 2));
  console.log(set);
 
-let set = new Set([1, 2, 3]);
-set = new Set(Array.from(set, val => val * 2));
+ let set = new Set([1, 2, 3]);
+ set = new Set(Array.from(set, val => val * 2));
  **/
 const ws = new WeakSet();
 for (let i = 1; i < 13; i++) {

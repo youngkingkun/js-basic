@@ -186,22 +186,32 @@ console.log(Fibonacci(100));
  * @returns {number}
  * @constructor
  */
-function Fibonacci2(n, ac1 = 1, ac2 = 1) {
-    if (n <= 1) {
-        return ac2
-    }
-    return Fibonacci2(n - 1, ac2, ac1 + ac2);
-}
+// function Fibonacci2(n, ac1 = 1, ac2 = 1) {
+//     if (n <= 1) {
+//         return ac2
+//     }
+//     return Fibonacci2(n - 1, ac2, ac1 + ac2);
+// }
+//
+// console.log(Fibonacci2(10000));
+//
+// function clownsEverywhere(
+//     param1,
+//     param2,
+// ) { /* ... */
+// }
+//
+// clownsEverywhere(
+//     'foo',
+//     'bar',
+// );
 
-console.log(Fibonacci2(10000));
 
-function clownsEverywhere(
-    param1,
-    param2,
-) { /* ... */
-}
+// let sum = (numb1, numb2) => numb1 + numb2;
+// console.log(sum(1, 2));
 
-clownsEverywhere(
-    'foo',
-    'bar',
-);
+let arr = [1, 2, 3];
+let sq = arr.map(x => x * x);
+console.log(arr);
+console.log(sq);
+

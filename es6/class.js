@@ -9,5 +9,5 @@ function Point(x, y) {
 }
 
 Point.prototype.toString = function () {
-    return '('+this.x+'x'
+    return '(' + this.x + 'x'
 }

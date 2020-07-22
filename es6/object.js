@@ -207,3 +207,10 @@
  console.log({...'hello'});
  **/
 
+// console.log(Object.is("of", "of"));
+let value = 1;
+let name = 2;
+const c = {
+    [name]: value
+}
+console.log(c)
