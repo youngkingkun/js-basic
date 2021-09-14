@@ -214,3 +214,12 @@ const c = {
     [name]: value
 }
 console.log(c)
+
+class Point{
+
+}
+
+// 类的数据类型就是函数
+console.log(typeof Point)
+// 类本身指向构造函数
+console.log(Point === Point.prototype.constructor)

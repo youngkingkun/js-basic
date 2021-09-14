@@ -215,3 +215,20 @@ let sq = arr.map(x => x * x);
 console.log(arr);
 console.log(sq);
 
+function foo() {
+    setTimeout(() => {
+        console.log('id:', this.id);
+    }, 100);
+}
+let id = 21;
+
+function bar() {
+    setTimeout(
+        function () {
+            console.log('id:', this.id);
+        }, 1000);
+}
+
+
+foo.call({id: 42});
+bar.call({id: 42});

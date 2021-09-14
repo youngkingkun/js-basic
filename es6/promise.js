@@ -58,24 +58,23 @@ const getJSON = function(url){
 getJSON('/posts.json').then(function(json){
 
 });
+
+
+let promise = new Promise(function (resolve, reject) {
+    console.log('Promise');
+    resolve();
+});
+promise.then(function () {
+    console.log('resolved.');
+});
+console.log('Hi!');
 */
-
-// let promise = new Promise(function (resolve, reject) {
-//     console.log('Promise');
-//     resolve();
-// });
-// promise.then(function () {
-//     console.log('resolved.');
-// });
-// console.log('Hi!');
-
 
 let p = new Promise((resolve, reject) => {
     resolve(1);
     console.log(2);
-}).then(r => {
-    console.log(r);
-});
-p.then(r=>{
-    console.log(r);
+}).then(r => console.log('B' + r));
+
+p.then(r => {
+    console.log('A' + r);
 });

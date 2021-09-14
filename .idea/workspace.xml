@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a970401-b988-4033-b323-e4907719ae49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/es6/async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/iterator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/module/circle.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/module/export-default.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/module/main.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/module/profiles.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/thread.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/ads-206.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/ads.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/alipay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/amap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/chat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/chat/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/chat/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/ws.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/js-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js-basic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/destructuring.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/destructuring.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/module/export-default.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/es6/module/export-default.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/object.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/set-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/set-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +24,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="package.json" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -70,20 +64,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.5" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.mjs">
+  <component name="RunManager" selected="Node.js.promise.js">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -170,7 +167,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration name="function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6/function.js" working-dir="$PROJECT_DIR$/es6">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/main.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <configuration name="main.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6/module/main.mjs" working-dir="$PROJECT_DIR$/es6/module">
@@ -179,29 +176,30 @@
     <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6/object.js" working-dir="$PROJECT_DIR$/es6">
       <method v="2" />
     </configuration>
-    <configuration name="proxy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6/proxy.js" working-dir="$PROJECT_DIR$/es6">
+    <configuration name="promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6/promise.js" working-dir="$PROJECT_DIR$/es6">
       <method v="2" />
     </configuration>
     <configuration name="set-map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6/set-map.js" working-dir="$PROJECT_DIR$/es6">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.proxy.js" />
-      <item itemvalue="Node.js.set-map.js" />
-      <item itemvalue="Node.js.function.js" />
-      <item itemvalue="Node.js.object.js" />
+      <item itemvalue="Node.js.main.js" />
       <item itemvalue="Node.js.main.mjs" />
+      <item itemvalue="Node.js.object.js" />
+      <item itemvalue="Node.js.set-map.js" />
+      <item itemvalue="Node.js.promise.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main.mjs" />
-        <item itemvalue="Node.js.object.js" />
-        <item itemvalue="Node.js.function.js" />
+        <item itemvalue="Node.js.promise.js" />
         <item itemvalue="Node.js.set-map.js" />
-        <item itemvalue="Node.js.proxy.js" />
+        <item itemvalue="Node.js.object.js" />
+        <item itemvalue="Node.js.main.mjs" />
+        <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -248,12 +246,32 @@
       <workItem from="1590047808394" duration="8186000" />
       <workItem from="1590543205441" duration="3489000" />
       <workItem from="1595396760090" duration="74000" />
-      <workItem from="1595396931969" duration="3593000" />
+      <workItem from="1595396931969" duration="9017000" />
+      <workItem from="1595819705360" duration="3734000" />
+      <workItem from="1595905202210" duration="2350000" />
+      <workItem from="1595908065979" duration="7912000" />
+      <workItem from="1596418057877" duration="215000" />
+      <workItem from="1596455286380" duration="289000" />
+      <workItem from="1596781982705" duration="23000" />
+      <workItem from="1597039944848" duration="1106000" />
+      <workItem from="1598349335313" duration="42000" />
+      <workItem from="1609404775863" duration="334000" />
+      <workItem from="1610000214454" duration="573000" />
+      <workItem from="1610001704858" duration="557000" />
+      <workItem from="1610003400846" duration="2947000" />
+      <workItem from="1610331762951" duration="469000" />
+      <workItem from="1610424091327" duration="517000" />
+      <workItem from="1620973362699" duration="183000" />
+      <workItem from="1621498968645" duration="509000" />
+      <workItem from="1625033258212" duration="5478000" />
+      <workItem from="1625132131772" duration="2184000" />
+      <workItem from="1625324489410" duration="586000" />
+      <workItem from="1630570637071" duration="3851000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -266,108 +284,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="274" y="97" key="#Inspections" timestamp="1590115503908">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="274" y="97" key="#Inspections/0.23.1280.777@0.23.1280.777" timestamp="1590115503908" />
-    <state x="240" y="77" width="800" height="717" key="#Intentions" timestamp="1590115438325">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="240" y="77" width="800" height="717" key="#Intentions/0.23.1280.777@0.23.1280.777" timestamp="1590115438325" />
-    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590115185774">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1590115185774" />
-    <state x="427" y="123" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1590055395819">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="427" y="123" key="#com.intellij.ide.macro.MacrosDialog/0.23.1280.777@0.23.1280.777" timestamp="1590055395819" />
-    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595396805715">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777/-2560.-317.2560.1417@0.23.1280.777" timestamp="1595396805715" />
-    <state x="494" y="143" key="EnvironmentVariablesDialog" timestamp="1590055358771">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="494" y="143" key="EnvironmentVariablesDialog/0.23.1280.777@0.23.1280.777" timestamp="1590055358771" />
-    <state width="1259" height="150" key="GridCell.Tab.0.bottom" timestamp="1595400772353">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="150" key="GridCell.Tab.0.bottom/0.23.1280.777/-2560.-317.2560.1417@0.23.1280.777" timestamp="1595400772353" />
-    <state width="1259" height="150" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1590655604738" />
-    <state width="1259" height="150" key="GridCell.Tab.0.center" timestamp="1595400772352">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="150" key="GridCell.Tab.0.center/0.23.1280.777/-2560.-317.2560.1417@0.23.1280.777" timestamp="1595400772352" />
-    <state width="1259" height="150" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1590655604735" />
-    <state width="1259" height="150" key="GridCell.Tab.0.left" timestamp="1595400772349">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="150" key="GridCell.Tab.0.left/0.23.1280.777/-2560.-317.2560.1417@0.23.1280.777" timestamp="1595400772349" />
-    <state width="1259" height="150" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1590655604735" />
-    <state width="1259" height="150" key="GridCell.Tab.0.right" timestamp="1595400772353">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="150" key="GridCell.Tab.0.right/0.23.1280.777/-2560.-317.2560.1417@0.23.1280.777" timestamp="1595400772353" />
-    <state width="1259" height="150" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1590655604738" />
-    <state width="1259" height="500" key="GridCell.Tab.1.bottom" timestamp="1590129953979">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1590129953979" />
-    <state width="1259" height="500" key="GridCell.Tab.1.center" timestamp="1590129953978">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1590129953978" />
-    <state width="1259" height="500" key="GridCell.Tab.1.left" timestamp="1590129953978">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1590129953978" />
-    <state width="1259" height="500" key="GridCell.Tab.1.right" timestamp="1590129953978">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1590129953978" />
-    <state width="1259" height="500" key="GridCell.Tab.2.bottom" timestamp="1590129953979">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.2.bottom/0.23.1280.777@0.23.1280.777" timestamp="1590129953979" />
-    <state width="1259" height="500" key="GridCell.Tab.2.center" timestamp="1590129953979">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.2.center/0.23.1280.777@0.23.1280.777" timestamp="1590129953979" />
-    <state width="1259" height="500" key="GridCell.Tab.2.left" timestamp="1590129953979">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.2.left/0.23.1280.777@0.23.1280.777" timestamp="1590129953979" />
-    <state width="1259" height="500" key="GridCell.Tab.2.right" timestamp="1590129953979">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.2.right/0.23.1280.777@0.23.1280.777" timestamp="1590129953979" />
-    <state width="1259" height="500" key="GridCell.Tab.3.bottom" timestamp="1590129953980">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.3.bottom/0.23.1280.777@0.23.1280.777" timestamp="1590129953980" />
-    <state width="1259" height="500" key="GridCell.Tab.3.center" timestamp="1590129953980">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.3.center/0.23.1280.777@0.23.1280.777" timestamp="1590129953980" />
-    <state width="1259" height="500" key="GridCell.Tab.3.left" timestamp="1590129953979">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.3.left/0.23.1280.777@0.23.1280.777" timestamp="1590129953979" />
-    <state width="1259" height="500" key="GridCell.Tab.3.right" timestamp="1590129953980">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1259" height="500" key="GridCell.Tab.3.right/0.23.1280.777@0.23.1280.777" timestamp="1590129953980" />
-    <state x="141" y="50" key="SettingsEditor" timestamp="1590055630925">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1590055630925" />
-    <state x="341" y="137" width="598" height="548" key="find.popup" timestamp="1595398700643">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="341" y="137" width="598" height="548" key="find.popup/0.23.1280.777/-2560.-317.2560.1417@0.23.1280.777" timestamp="1595398700643" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,6 +302,12 @@
           <url>file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts</url>
           <line>425</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html/chat/main.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
